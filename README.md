@@ -1,7 +1,6 @@
-# BachelorCode
-## To run the code
-### install miniconda
-### download the data-set
+# To Run the test files
+1. install miniconda,
+2. download the data-set
 #### store unzipped data into folder ~/shared/DCASE2021/task2 (or set --data_root parameter accordingly)
 ##### change dir to root of this project
 ###### run conda env create -f environment.yml to install the conda environment
