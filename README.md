@@ -1,10 +1,10 @@
 # To Run the test files
 1. install miniconda,
 2. download the data-set
-#### store unzipped data into folder ~/shared/DCASE2021/task2 (or set --data_root parameter accordingly)
-##### change dir to root of this project
-###### run conda env create -f environment.yml to install the conda environment
-####### activate the conda environment with conda activate dcase2021_task2
-######### Install all the required packages such as Pytorch,Pytorch lightning,librosa
-########## To train the first machine run the below command:For MADE model
-python -m experiments.train density --version made --architecture made --n_gaussians 1 --proxy_outliers other_sections --proxy_outlier_lambda 1.0 --margin 0.5 --consistent_with_librosa --machine_type fan
+3.store unzipped data into folder ~/shared/DCASE2021/task2 (or set --data_root parameter accordingly)
+4. change dir to root of this project
+5. run conda env create -f environment.yml to install the conda environment
+6. activate the conda environment with conda activate dcase2021_task2
+7. Install all the required packages such as Pytorch,Pytorch lightning,librosa
+## To train the first machine run the below command:For MADE model
+8.python -m experiments.train density --version made --architecture made --n_gaussians 1 --proxy_outliers other_sections --proxy_outlier_lambda 1.0 --margin 0.5 --consistent_with_librosa --machine_type fan
